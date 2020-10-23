@@ -1,14 +1,14 @@
 @font-face{
 	font-family: akira;
-	src: url('fonts/Akira-Expanded-Demo.otf');
+	src: url('Akira-Expanded-Demo.otf');
 }
 @font-face{
 	font-family: noodle;
-	src: url('fonts/big_noodle_titling_oblique.ttf');
+	src: url('big_noodle_titling_oblique.ttf');
 }
 @font-face{
 	font-family: peace;
-	src: url('fonts/Peace-Sans.otf');
+	src: url('Peace-Sans.otf');
 }
 
 *{
