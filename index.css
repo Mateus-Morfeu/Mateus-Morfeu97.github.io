@@ -43,6 +43,8 @@ header{
 	background-color: #f7d917;
 	display: flex;
 	flex-direction: row;
+	background-image: url(https://media.istockphoto.com/photos/panorama-of-black-wooden-boards-gloomy-wood-texture-dark-background-picture-id878155882?k=6&m=878155882&s=170667a&w=0&h=26ZGe8Y1NKQTKhEmB0iIfgCLJCk1v2qIbtjI4nvWtw0=);
+	background-size: 20% 100%;
 }
 .ap .text{
 	width: 70%;
@@ -103,6 +105,7 @@ https://images-na.ssl-images-amazon.com/images/I/41FMYFYWP1L.jpg
 	background-color: #f7d917;
 	height: 280px;
 	box-shadow: 0 0 10px black;
+	background-image: url(https://media.istockphoto.com/photos/panorama-of-black-wooden-boards-gloomy-wood-texture-dark-background-picture-id878155882?k=6&m=878155882&s=170667a&w=0&h=26ZGe8Y1NKQTKhEmB0iIfgCLJCk1v2qIbtjI4nvWtw0=);
 }
 .info img{
  	width: 280px;
@@ -350,16 +353,35 @@ footer h4{
 	transform: translateX(340%) translateY(-100px);
 	text-align: center;
 }
-@media only screen and (max-device-width:1920px){}
-@media only screen and (max-device-width:1103px){}
 
 /*================================================================
 ------------------ ---------mobile--------------------------------
 ==================================================================*/
+@media only screen and (max-device-width:1920px){}
+@media only screen and (max-device-width:1103px){
+	.ap{
+		background-image: url(https://media.istockphoto.com/photos/panorama-of-black-wooden-boards-gloomy-wood-texture-dark-background-picture-id878155882?k=6&m=878155882&s=170667a&w=0&h=26ZGe8Y1NKQTKhEmB0iIfgCLJCk1v2qIbtjI4nvWtw0=);
+	}
+	.ap img{
+		transform: translateX(500px);
+	}
+	.text h1{
+		font-size: 125px;
+		width: 80%;
+		text-shadow: 0 0 3px black,0 0 3px black,0 0 6px black,0 0 9px black;
+		transform: translate(-60px, 0px);
+	}
+}
+
+
+
+
 @media only screen and (max-device-width:800px){
 	.ap{
 		width: 100%;
 		height: 300px;
+		background-size: 100% 100%;
+		background-image: url(https://media.istockphoto.com/photos/panorama-of-black-wooden-boards-gloomy-wood-texture-dark-background-picture-id878155882?k=6&m=878155882&s=170667a&w=0&h=26ZGe8Y1NKQTKhEmB0iIfgCLJCk1v2qIbtjI4nvWtw0=);
 	}
 	.text h1{
 		font-size: 60px;
@@ -474,116 +496,116 @@ footer p{
 
 }
 @media only screen and (max-device-width:320px){
-.ap{
-	width: 100%;
-	height: 300px;
-}
-.text h1{
-	font-size: 60px;
-	width: 100%;
-	transform: translateX(-50px);
-	text-shadow: 0 0 3px black,0 0 3px black,0 0 6px black,0 0 9px black;
-}
-.text h1::after{font-size: 60px;width: 100%;}
-.text h1::before{font-size: 60px;width: 100%;}
-/*====================================================*/
+	.ap{
+		width: 100%;
+		height: 300px;
+	}
+	.text h1{
+		font-size: 60px;
+		width: 100%;
+		transform: translateX(-50px);
+		text-shadow: 0 0 3px black,0 0 3px black,0 0 6px black,0 0 9px black;
+	}
+	.text h1::after{font-size: 60px;width: 100%;}
+	.text h1::before{font-size: 60px;width: 100%;}
+	/*====================================================*/
 
-.info{
-	width: 100%;
-	box-sizing: border-box;
-}
-.info img{
-	width: 100px;
-}
-.pinkf{
-	transform: translateX(35px);
-}
-.bs{
-	transform: translateX(75px);
-}
-.black{
-	transform: translateX(115px);
-}
-.kansas{
-	transform: translateX(155px);
-}
-.animals{
-	transform: translateX(195px);
-}
-.acdc{
-	transform: translateX(235px);
-}
-.maia:hover{
-	width: 100px;
-}
-.pinkf:hover{width: 100px;}
-.bs:hover{width: 100px;}
-.black:hover{width: 100px;}
-.kansas:hover{width: 100px;}
-.animals:hover{width: 100px;}
-.acdc:hover{width: 100px;}
-.opc{height: 100px;}
-.info{
-	height: 100px;
-}
-.agradecimentos{
-	padding: 0px;
-}
-.agradecimentos p{
-	font-size: 12px;
-	width: 80%;
-	padding-top: 30px;
-}
+	.info{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.info img{
+		width: 100px;
+	}
+	.pinkf{
+		transform: translateX(35px);
+	}
+	.bs{
+		transform: translateX(75px);
+	}
+	.black{
+		transform: translateX(115px);
+	}
+	.kansas{
+		transform: translateX(155px);
+	}
+	.animals{
+		transform: translateX(195px);
+	}
+	.acdc{
+		transform: translateX(235px);
+	}
+	.maia:hover{
+		width: 100px;
+	}
+	.pinkf:hover{width: 100px;}
+	.bs:hover{width: 100px;}
+	.black:hover{width: 100px;}
+	.kansas:hover{width: 100px;}
+	.animals:hover{width: 100px;}
+	.acdc:hover{width: 100px;}
+	.opc{height: 100px;}
+	.info{
+		height: 100px;
+	}
+	.agradecimentos{
+		padding: 0px;
+	}
+	.agradecimentos p{
+		font-size: 12px;
+		width: 80%;
+		padding-top: 30px;
+	}
 
-/*====================================*/
-.login{
-	height: 400px;
-}
-.log{
-	transform: translateX(4%);
-	width: 80%;
-	height: 320px;
-}
-.listra{
-	transform: translateY(100px);
-}
-/*==========================================*/
-.link{
-	height: 90px;
-}
-.linka{
-	width: 98%;
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: 1fr 1fr;
-}
-/*=========================================*/
-footer{
-	padding: 3px 3px;
-}
-footer div{
-	width: 85%;
-}
-footer div img{
-	width: 50px;
-}
+	/*====================================*/
+	.login{
+		height: 400px;
+	}
+	.log{
+		transform: translateX(4%);
+		width: 80%;
+		height: 320px;
+	}
+	.listra{
+		transform: translateY(100px);
+	}
+	/*==========================================*/
+	.link{
+		height: 90px;
+	}
+	.linka{
+		width: 98%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+	}
+	/*=========================================*/
+	footer{
+		padding: 3px 3px;
+	}
+	footer div{
+		width: 85%;
+	}
+	footer div img{
+		width: 50px;
+	}
 
-/*=================================*/
-.ap img{
-	transform: translate(150px, 10px);
-	width: 200px;
-	height: 200px;
-}
-body { background-color: black; }
-footer div span a{
-	font-size: 24px;
-	transform: translateY(2px);
-	padding-left: 10px;
-}
-footer p{
-	transform: translate(100%,-15px);
-	font-size: 10px;
-}
+	/*=================================*/
+	.ap img{
+		transform: translate(150px, 10px);
+		width: 200px;
+		height: 200px;
+	}
+	body { background-color: black; }
+	footer div span a{
+		font-size: 24px;
+		transform: translateY(2px);
+		padding-left: 10px;
+	}
+	footer p{
+		transform: translate(100%,-15px);
+		font-size: 10px;
+	}
 
 
 }
