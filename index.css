@@ -350,6 +350,8 @@ footer h4{
 	transform: translateX(340%) translateY(-100px);
 	text-align: center;
 }
+@media only screen and (max-device-width:1920px){}
+@media only screen and (max-device-width:1103px){}
 
 /*================================================================
 ------------------ ---------mobile--------------------------------
